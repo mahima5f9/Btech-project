@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "378541994064",
+    "firebase_url": "https://organic-duality-224412.firebaseio.com",
+    "project_id": "organic-duality-224412",
+    "storage_bucket": "organic-duality-224412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378541994064:android:de022af3aaa0c408676155",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378541994064-ijmcbt2mqh5anoantmupi48lf01mlmlh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "5e2dc71a510c5d1bfea87ac3fe0b8e87164c05b5"
+          }
+        },
+        {
+          "client_id": "378541994064-rm4gj4n3fqo2lqn5isprrb3atgb430r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy5YzriQ346V4kSPAwROiu9oSdBt7uXoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378541994064-rm4gj4n3fqo2lqn5isprrb3atgb430r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

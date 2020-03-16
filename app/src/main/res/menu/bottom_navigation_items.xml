@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/menu_home"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/placements"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:id="@+id/menu_placements"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/training"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:id="@+id/menu_training"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/materials"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:id="@+id/menu_materials"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/suggestions"
+        android:icon="@drawable/ic_comment_black_24dp"
+        android:id="@+id/menu_suggestions"
+        app:showAsAction="ifRoom"/>
+
+</menu>

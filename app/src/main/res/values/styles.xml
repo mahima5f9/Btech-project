@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/pureWhite</item>
+
+    </style>
+
+    <style name="BrandButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/greenColor</item>
+        <item name="backgroundTint">#ffffff</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="strokeColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="BottomNavigationTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+    </style>
+    <style name="RatingBarTheme" parent="Base.Widget.AppCompat.RatingBar"
+        >
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/greyColor</item>
+
+        <item name="android:secondaryProgressTint" tools:targetApi="lollipop">@color/blueColor</item>
+
+    </style>
+        <style name="TextInputLayoutTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="android:textColor">@color/teelColor</item>
+            <item name="android:textColorHint">@color/deepOrange</item>
+            <item name="hintTextColor">@color/teelColor</item>
+        </style>
+        <style name="TextInputEditTextTheme" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+            <item name="android:textColor">@color/greenColor</item>
+        </style>
+
+        <style name="TextViewTheme" parent="Base.Widget.AppCompat.TextView">
+            <item name="android:textColor">@color/whiteColor</item>
+            <item name="android:background">@color/colorPrimary</item>
+            <item name="android:singleLine">true</item>
+            <item name="android:ellipsize">end</item>
+        </style>
+
+    <style name="ChipTheme" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:textColor">@color/greenColor</item>
+        <item name="chipStrokeColor">@color/colorAccent</item>
+        <item name="chipBackgroundColor">@color/colorPrimary</item>
+        <item name="rippleColor">@color/colorAccent</item>
+    </style>
+
+
+</resources>
